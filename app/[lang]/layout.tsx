@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "VISTA TOUR",
+    title: "7 STARS TOUR",
     description: "Путешествие по Узбекистану",
 };
 

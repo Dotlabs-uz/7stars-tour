@@ -29,7 +29,6 @@ export const scrollToContent = (e:any, contentId:string) => {
   };
 
 const Header: React.FunctionComponent<HeaderProps> = ({ page, lang }) => {
-    function ChangeLanguage() {}
 
     const router = useRouter();
 
@@ -41,8 +40,8 @@ const Header: React.FunctionComponent<HeaderProps> = ({ page, lang }) => {
         <header className=" w-full p-4 bg-[#3ba4ec]">
             <div className="container m-auto flex items-center justify-between">
                 <div className="flex items-center text-white gap-4">
-                    {/* <Image src={"/logo.png"} width={00} height={200} alt=""/> */}
-                    <p className="text-xl cursor-pointer">VISTA TOUR</p>
+                    {/* <Image src={"/images/logo.png"} width={70} height={70} alt=""/> */}
+                    <p className="text-xl cursor-pointer">7 STARS TOUR</p>
                 </div>
                 <nav>
                     <div className="flex gap-5 text-white items-center">

@@ -9,7 +9,7 @@
         "toursText": "Tours",
         "QuestionText": "Questions",
         "ContactsText": "Contacts",
-        "infoText": "VISTA TOUR is founded with the aim of revealing the beauty and richness of Uzbekistan's culture to travelers. Our team comprises experienced professionals in the tourism industry who strive to make your journey as comfortable and captivating as possible.",
+        "infoText": "7 STARS TOUR is founded with the aim of revealing the beauty and richness of Uzbekistan's culture to travelers. Our team comprises experienced professionals in the tourism industry who strive to make your journey as comfortable and captivating as possible.",
         "readMore": "read more",
         "ActualTours": "Actual tours",
         "Answers": "Detailed Information",
@@ -315,12 +315,12 @@
             "places": [
                 {
                     "title": "The Sumel Monastery",
-                    "img": "https://traveltimes.ru/wp-content/uploads/2021/11/sumel-1024x684.jpg",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/d/db/Sumela_From_Across_Valley.JPG",
                     "body": "The Sumela Monastery is located on Mount Mela near the northeast coast of Turkey. It was carved into the mountains almost 1600 years ago and operated until 1925. The monastery has a library, a chapel, a church and several other rooms open to the public. Those who get there will be rewarded with stunning natural panoramic views and some trekking options."
                 },
                 {
                     "title": "Hike to Mount Nemrut",
-                    "img": "https://traveltimes.ru/wp-content/uploads/2021/11/nemrut-1024x681.jpg",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nemrut_dag_temple_view_2.jpg",
                     "body": "Mount Nemrut, rising to a height of 2,134 m (7,001 ft), is a UNESCO World Heritage Site and an ideal place for those who love outdoor activities. The sights on this mountain are the statues of heads, which were built in 62 BC by King Antiochus I with Persian and Greek influences. Those who wish to visit Mount Nemrut can choose an excursion from Adiyaman."
                 },
                 {
@@ -365,8 +365,8 @@
             "title": "Educational tourism",
             "body": "Have you dreamed of studying not only at the university, but also immersing yourself in the culture and history of different countries? We invite you to the exciting world of educational tourism, where education is combined with adventure, and study programs turn into exciting trips!",
             "price": "The price of the tour on request",
-            "img": "https://vuzopedia.ru/storage/app/uploads/public/63a/58a/434/63a58a43430e6733064240.webp",
-            "img2": "https://vuzopedia.ru/storage/app/uploads/public/63a/58a/434/63a58a43430e6733064240.webp",
+            "img": "https://tengritravel.kz/userdata/news/2018/news_342250/thumb_m/photo_246277.jpg",
+            "img2": "https://tengritravel.kz/userdata/news/2018/news_342250/thumb_m/photo_246277.jpg",
             "places": [
                 {
                     "title": "The methodology of research in education",
@@ -385,7 +385,7 @@
                 },
                 {
                     "title": "The Tourism and Education module",
-                    "img": "https://sportishka.com/uploads/posts/2022-03/1646422072_20-sportishka-com-p-obrazovatelnii-turizm-turizm-krasivo-foto-24.jpg",
+                    "img": "https://f2.lpcdn.site/f9dc575201715050f5f122c1206b5cb3/3f8f9431165e8ba20fff401e7513b284.png",
                     "body": "The Tourism and Education module is a unique approach aimed at combining adventure and learning, creating a symbiosis that enriches both the mind and the soul."
                 }
             ]

