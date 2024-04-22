@@ -24,7 +24,7 @@ const IdPage = async ({
                 </div>
                 <div className="m-auto container text-white pt-48 max-[680px]:pt-14 max-[680px]:py-5 max-[500px]:py-3 px-6">
                     <h1 className="text-5xl font-bold mb-10 max-[500px]:mb-5 max-[680px]:text-3xl max-sm:text-4xl max-[500px]:text-2xl max-[500px]:mt-10 max-[450px]:text-xl">
-                        {tours.title}
+                        {tours?.title}
                     </h1>
                     <p className=" text-4xl font-medium max-[680px]:text-3xl max-[500px]:text-xl  max-[390px]:text-base ">
                         {page.infoSubTitle}

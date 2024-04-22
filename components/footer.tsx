@@ -13,26 +13,26 @@ const Footer: React.FunctionComponent<FooterProps> = () => {
                     <p className="text-xl font-medium max-sm:text-sm">
                         Контакты
                     </p>
-                    <a href="tel:+998901234567" className="text-xl font-bold max-sm:text-sm">
-                        +998 90 123 45 67
+                    <a href="tel:+998337507507" className="text-xl font-bold max-sm:text-sm">
+                        +998 33 750 75 07
                     </a>
                 </div>
                 <div className="flex items-center gap-2 flex-col">
                     <div className="flex items-center gap-4 max-md:gap-2">
                         <Link
-                            href="#"
+                            href="tel:+998337507507"
                             className="text-gray-400 hover:text-[#3ba4ec]"
                         >
                             <FaTelegram size={30} />
                         </Link>
                         <Link
-                            href="#"
+                            href="https://www.instagram.com/sevenstarstravel750?igsh=MWxraXBwZmVtY2tmdQ=="
                             className="text-gray-400 hover:text-[#3ba4ec]"
                         >
                             <FaInstagram size={30} />
                         </Link>
                         <Link
-                            href=""
+                            href="https://mail.google.com/mail/u/0/#search/sevenstarstravel%40mail.ru?compose=new"
                             className="text-gray-400 hover:text-[#3ba4ec]"
                         >
                             <FiMail size={30} />
