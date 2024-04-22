@@ -37,14 +37,14 @@ const Header: React.FunctionComponent<HeaderProps> = ({ page, lang }) => {
     }
 
     return (
-        <header className=" w-full p-4 bg-[#3ba4ec]">
+        <header className="w-full bg-gray-200">
             <div className="container m-auto flex items-center justify-between">
                 <div className="flex items-center text-white gap-4">
-                    {/* <Image src={"/images/logo.png"} width={70} height={70} alt=""/> */}
-                    <p className="text-xl cursor-pointer">7 STARS TOUR</p>
+                    <Image src={"/images/logo.png"} width={120} height={100} alt="" className="max-md:w-[90px] max-sm:w-[70px]"/>
+                    <p className="text-xl text-[#3ba4ec] cursor-pointer max-lg:hidden">7 STARS TOUR</p>
                 </div>
                 <nav>
-                    <div className="flex gap-5 text-white items-center">
+                    <div className="flex gap-5 text-[#3ba4ec] items-center">
                         <p
                             onClick={(e)=> scrollToContent(e, "tours")}
                             className="cursor-pointer max-[580px]:hidden"
@@ -64,12 +64,12 @@ const Header: React.FunctionComponent<HeaderProps> = ({ page, lang }) => {
                             {page.ContactsText}
                         </p>
                         <Select onValueChange={changeVal}>
-                            <SelectTrigger className="w-[70px] rounded-lg text-black">
+                            <SelectTrigger className="w-[70px] max-sm:px-2 max-sm:w-[55px] max-sm:h-[30px] max-sm:text-xs rounded-lg text-white bg-[#3ba4ec]">
                                 <SelectValue placeholder={lang.toUpperCase()} />
                             </SelectTrigger>
-                            <SelectContent className="">
-                                <SelectItem value="ru">RU</SelectItem>
-                                <SelectItem value="en">EN</SelectItem>
+                            <SelectContent className="max-sm:w-fit">
+                                <SelectItem className="max-sm:text-xs max-sm:px-6 max-sm:w-fit" value="ru">RU</SelectItem>
+                                <SelectItem className="max-sm:text-xs max-sm:px-6 max-sm:w-fit" value="en">EN</SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
