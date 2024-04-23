@@ -16,6 +16,7 @@ const URL = `https://api.telegram.org/bot6429026106:AAFePHVn3COnqYGcRnQzbaf5f9Zi
 
 const FormSubmit = ({ page }: any) => {
     const [number, setNumber] = useState("");
+    const [loading, setLoading] = useState(false);
 
     const {
         register,
@@ -26,6 +27,7 @@ const FormSubmit = ({ page }: any) => {
     } = useForm<Inputs>();
 
     const onSubmit: SubmitHandler<Inputs> = async (data) => {
+        setLoading(true);
         let msg = `🆕 Заявка\n`;
         msg += `👨 Имя: ${data?.name} \n`;
         msg += `📞 Номер телефона: ${data.number} \n`;
@@ -41,7 +43,8 @@ const FormSubmit = ({ page }: any) => {
             .then((res) => {
                 if (res.status === 200 || res.status === 201) {
                     setNumber("");
-                    reset()
+                    reset();
+                    setLoading(false);
                 }
             })
             .catch((err) => console.log(err));
@@ -92,6 +95,7 @@ const FormSubmit = ({ page }: any) => {
             <button
                 type="submit"
                 className="w-full bg-[#00000030] p-3 rounded-lg text-center mt-2 text-white"
+                disabled={loading}
             >
                 {page.stick.button}
             </button>
