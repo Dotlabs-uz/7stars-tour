@@ -8,6 +8,7 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 interface HeaderProps {
@@ -39,10 +40,9 @@ const Header: React.FunctionComponent<HeaderProps> = ({ page, lang }) => {
     return (
         <header className="w-full bg-gray-200">
             <div className="container m-auto flex items-center justify-between">
-                <div className="flex items-center text-white gap-4">
+                <Link href={"/"}>
                     <Image src={"/images/logo.png"} width={120} height={100} alt="" className="max-md:w-[90px] max-sm:w-[70px]"/>
-                    <p className="text-xl text-[#3ba4ec] cursor-pointer max-lg:hidden">7 STARS TOUR</p>
-                </div>
+                </Link>
                 <nav>
                     <div className="flex gap-5 text-[#3ba4ec] items-center">
                         <p
