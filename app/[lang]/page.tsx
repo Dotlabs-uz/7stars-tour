@@ -27,7 +27,7 @@ export default async function Home({
                 }
                 alt=""
             />
-            <FirstSection page={page}/>
+            <FirstSection page={page} />
             {/* <div className="w-[100%] bg-[#3ba4ec] h-14 mt-60"></div> */}
             <section className="container px-5 m-auto w-[100%] overflow-x-hidden mt-52 max-xl:mt-24 max-md:mt-16 max-[500px]:mt-0">
                 <div className="max-w-5xl">
@@ -70,7 +70,10 @@ export default async function Home({
                     </section>
                 </div>
 
-                <h2 id="question" className="text-3xl mb-5 max-lg:text-xl max-sm:text-sm">
+                <h2
+                    id="question"
+                    className="text-3xl mb-5 max-lg:text-xl max-sm:text-sm"
+                >
                     {page.Answers}
                 </h2>
                 <Accordion
@@ -103,6 +106,23 @@ export default async function Home({
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
+                <div className="uppercase mt-10 flex flex-col gap-2">
+                    <div className="flex max-sm:flex-col gap-2 max-sm:gap-0">
+                        <h3 className="font-bold">Директор:</h3>{" "}
+                        <p>Нурметова Саида Каримжон қизи</p>
+                    </div>
+                    <div className="flex max-sm:flex-col gap-2 max-sm:gap-0">
+                        <h3 className="font-bold">Время работы:</h3>{" "}
+                        <p>09:00 - 18:00</p>
+                    </div>
+                    <div className="flex max-sm:flex-col gap-2 max-sm:gap-0">
+                        <h3 className="font-bold">Адресс:</h3>{" "}
+                        <p>
+                            Тошкент шахри, Бектемир туманани, маджнунтол МФЙ,
+                            Уганч кучаси, 2-уй
+                        </p>
+                    </div>
+                </div>
             </section>
         </div>
     );
